@@ -1,0 +1,66 @@
+{
+    "disallowEmptyBlocks": true,
+    "disallowKeywords": ["with"],
+    "disallowKeywordsOnNewLine": ["else"],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowPaddingNewlinesInBlocks": true,
+    "requireSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": [ "+", "-", "~" ],
+    "disallowSpaceBeforeBinaryOperators": [
+        ","
+    ],
+    "disallowSpaceBeforePostfixUnaryOperators": [ "+", "-", "~" ],
+    "disallowSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": "ignoreEmptyLines",
+    "requireSpaceAfterPrefixUnaryOperators" : [ "!" ],
+    "disallowYodaConditions": true,
+    "maximumLineLength": 200,
+    "requireCapitalizedConstructors": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireDotNotation": true,
+    "disallowMultipleVarDecl": "exceptUndefined",
+    "requireOperatorBeforeLineBreak": [
+        "?",
+        "=",
+        "+",
+        "-",
+        "/",
+        "*",
+        "===",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "disallowSpaceAfterKeywords": [
+        "for",
+        "if",
+        "switch",
+        "catch",
+        "while",
+        "typeof"
+    ],
+    "requireSpaceAfterLineComment": { "allExcept": [ "#", "=", "-", "/" ] },
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpacesInConditionalExpression": true,
+    "requireSpacesInsideParentheses": { "all" : true },
+    "requireSpacesInsideBrackets": true,
+    "safeContextKeyword": ["_this"],
+    "validateIndentation": "\t",
+    "validateLineBreaks": "LF",
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": "'",
+    "fileExtensions": [".js"]
+}
