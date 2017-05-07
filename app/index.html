@@ -5,9 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Markdown Editor</h1>
-    <p>Markdown editor component</p>
+
+    <div id="markdown-editor">
+      <div class="toolbar">
+        <button id="heading1"><i class="fa fa-header" aria-hidden="true"></i>1</button>
+        <button id="heading2"><i class="fa fa-header" aria-hidden="true"></i>2</button>
+        <button id="heading3"><i class="fa fa-header" aria-hidden="true"></i>3</button>
+        <button id="bold"><i class="fa fa-bold" aria-hidden="true"></i></button>
+        <button id="italic"><i class="fa fa-italic" aria-hidden="true"></i></button>
+        <button id="link"><i class="fa fa-link" aria-hidden="true"></i></button>
+        <button id="preview"><i class="fa fa-eye" aria-hidden="true"></i> Preview</button>
+      </div>
+      <div id="input-output">
+        <textarea id="input-area" rows="30" cols="50"></textarea>
+        <div id="output-area"></div>
+      </div>
+    </div>
+
+    <script src="dist/app.js"></script>
   </body>
 </html>

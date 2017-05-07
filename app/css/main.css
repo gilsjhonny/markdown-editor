@@ -1,0 +1,52 @@
+#markdown-editor {
+  width: 50%;
+  margin: 100px auto; }
+  #markdown-editor .toolbar {
+    background: #4f4f4f;
+    border: 1px solid #4F4F4F;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    width: 95%;
+    padding: .5rem 10px;
+    margin: 0; }
+    #markdown-editor .toolbar button {
+      color: #a5a5a5;
+      background: transparent;
+      border: none;
+      font-family: sans-serif;
+      font-size: .8rem;
+      cursor: pointer;
+      padding: .7rem; }
+      #markdown-editor .toolbar button:hover, #markdown-editor .toolbar button.active {
+        background: #424242;
+        border-radius: 5px;
+        box-shadow: 0 0 2px #5c5c5c inset;
+        outline: 0px; }
+      #markdown-editor .toolbar button:focus {
+        outline: none; }
+  #markdown-editor #input-output {
+    height: 400px;
+    width: 95%;
+    position: relative; }
+    #markdown-editor #input-output #input-area {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      border: 1px solid #aaaaaa;
+      border-radius: 0 0 10px 10px;
+      box-shadow: 0 10px 10px #e0e0e0; }
+      #markdown-editor #input-output #input-area:focus, #markdown-editor #input-output #input-area:active {
+        outline: 0px; }
+    #markdown-editor #input-output #output-area {
+      background: white;
+      display: none;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      padding: 10px;
+      height: 400px;
+      width: 100%;
+      transition: display .2s ease;
+      overflow: scroll;
+      border-radius: 0 0 10px 10px; }

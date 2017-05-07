@@ -49,6 +49,6 @@ gulp.task('serve', ['sass','js'], function () {
     // add browserSync.reload to the tasks array to make
     // all browsers reload after tasks are complete.
     gulp.watch("scss/**/*.scss", ['sass']);
-    gulp.watch("src/js/*.js", ['js-watch']);
+    gulp.watch("src/*.js", ['js-watch']);
     gulp.watch("app/*.html").on('change', browserSync.reload);
 });
