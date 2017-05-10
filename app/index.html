@@ -11,17 +11,27 @@
 
     <div id="markdown-editor">
       <div class="toolbar">
-        <button id="heading1"><i class="fa fa-header" aria-hidden="true"></i>1</button>
-        <button id="heading2"><i class="fa fa-header" aria-hidden="true"></i>2</button>
-        <button id="heading3"><i class="fa fa-header" aria-hidden="true"></i>3</button>
-        <button id="bold"><i class="fa fa-bold" aria-hidden="true"></i></button>
-        <button id="italic"><i class="fa fa-italic" aria-hidden="true"></i></button>
-        <button id="link"><i class="fa fa-link" aria-hidden="true"></i></button>
-        <button id="preview"><i class="fa fa-eye" aria-hidden="true"></i> Preview</button>
+        <div class="group">
+          <button id="heading1"><i class="fa fa-header" aria-hidden="true"></i>1</button>
+          <button id="heading2"><i class="fa fa-header" aria-hidden="true"></i>2</button>
+          <button id="heading3"><i class="fa fa-header" aria-hidden="true"></i>3</button>
+        </div>
+        <div class="group">
+          <button id="bold"><i class="fa fa-bold" aria-hidden="true"></i></button>
+          <button id="italic"><i class="fa fa-italic" aria-hidden="true"></i></button>
+        </div>
+        <div class="group">
+          <button id="link"><i class="fa fa-link" aria-hidden="true"></i></button>
+          <button id="list-ul"><i class="fa fa-list-ul" aria-hidden="true"></i></button>
+          <button id="list-ol"><i class="fa fa-list-ol" aria-hidden="true"></i></button>
+          <button id="token">{{Token}}</button>
+        </div>
+        <button id="preview">Preview</button>
       </div>
       <div id="input-output">
         <textarea id="input-area" rows="30" cols="50"></textarea>
         <div id="output-area"></div>
+        <p class="preview-message">Preview Mode</p>
       </div>
     </div>
 
